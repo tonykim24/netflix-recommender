@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-movies = pd.read_csv('tmdb_5000_movies.csv')
+movies = pd.read_csv('data/tmdb_5000_movies.csv')
 movies.head(10)
 
 # see the data statistics(ex. mean, std, etc)
@@ -40,5 +40,3 @@ def recommend(movieName):
 
 
 recommend("Iron Man")
-
-print("test run")
